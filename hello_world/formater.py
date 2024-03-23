@@ -21,7 +21,7 @@ def get_formatted(msg, imie, format):
 
 
 def format_to_json(msg, imie):
-    return ('{ "imie":"' + imie + '", "mgs":' +
+    return ('{ "imie":"' + imie + '", "message":' +
             msg + '"}')
 
 
@@ -35,3 +35,5 @@ def plain_text_upper_case(msg, imie):
 
 def plain_text_lower_case(msg, imie):
     return plain_text(msg.lower(), imie.lower())
+
+https://github.com/IgorYarmolchuk/2024_L_II_NWh_INFI_K5
